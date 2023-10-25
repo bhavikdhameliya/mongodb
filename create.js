@@ -104,8 +104,83 @@
 
 
      ])
+
+     4.student
         
-         
+   db.student.insertMany([
+    {
+	sname : "Darshan",
+	course : "Full-stack Development",
+	fees : 95000,
+	faculty : "girish"
+},
+{
+	sname : "Bhavik",
+	course : "Backend Development",
+	fees : 65000,
+	faculty : "girish"
+},
+{
+    sname : "Shruti",
+	course : "Frontend Development",
+	fees : 75000,
+	faculty : "vivek"
+},
+{
+	sname: "Janvi",
+	course : "UI/UX",
+	fees : 45000,
+	faculty : "nikunj"
+},
+{
+	sname : "Janki",
+	course : "Mobile Development",
+	fees : 65000,
+	faculty : "kuldeep"
+},
+{
+    sname : "Ravi",
+	course : "UI/UX",
+	fees : 45000,
+	faculty : "nikunj"
+}
+])   
+
+
+db.teacher.insertMany([
+
+{
+	
+	tname : "girish",
+	position : "Backend Developer",
+	salary : 5000
+},
+
+
+{
+	
+	tname : "vivek",
+	position : "Frontend Developer",
+	salary : 6000
+},
+
+
+{
+	
+	tname : "nikunj",
+	position : "UI/UX Designer",
+	salary : 5500
+},
+
+
+{
+	
+	tname : "kuldeep",
+	position : "Mobile App Developer",
+	salary : 7000
+}
+
+])
      
 
 
